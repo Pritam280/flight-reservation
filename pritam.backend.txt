@@ -2,6 +2,7 @@
 
 docker build -t alexaa123/flight-reservation:latest
 docker push alexaa123/flight-reservation:latest
+docker rmi alexaa123/flight-reservation:latest
 
 
 # (Jenkins user will need permmision to run docker commands.)
