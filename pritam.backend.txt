@@ -23,7 +23,7 @@ K8s access
 first aws cli to acess throught cli in your instance
 
 
-aws eks update-kubeconfig --name flight-cluster --region us-east-1
+aws eks update-kubeconfig --name cbz-cluster --region us-east-1
 
 # install kubectl 
 
@@ -64,3 +64,9 @@ chown jenkins -R .var.lib/jenkins/.aws/
 systemctl restart jenkins
 
 
+
+databses ::
+
+dbendpiont terraform-20260224031431644200000002.cafoaieg6uvj.us-east-1.rds.amazonaws.com
+dbuser: admin
+dbpass: Redhat123
